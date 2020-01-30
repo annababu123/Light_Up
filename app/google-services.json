@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1016070966473",
+    "firebase_url": "https://light-up-cae24.firebaseio.com",
+    "project_id": "light-up-cae24",
+    "storage_bucket": "light-up-cae24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016070966473:android:70663d0aa75572d3",
+        "android_client_info": {
+          "package_name": "com.sdc.aisat.annajijo.lightup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016070966473-6m3pe3ea35bde5eh0v2r4c8k8a52l90u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ9gESjYZUiRHke1uiVyxS3PCp-SjKqDU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

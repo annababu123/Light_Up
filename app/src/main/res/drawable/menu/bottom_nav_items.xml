@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="@string/menu_home"
+        android:titleCondensed="@string/menu_fitness"
+        android:icon="@drawable/rsz_ic_home" />
+    <!--android:icon="@drawable/ic_home"-->
+
+    <item
+        android:id="@+id/menu_news"
+        android:title="@string/menu_news"
+
+        android:icon="@drawable/rsz_ic_news" />
+    <!--android:icon="@drawable/ic_news"-->
+    <item
+        android:id="@+id/menu_rank"
+        android:title="@string/menu_rank"
+        android:icon="@drawable/rsz_ic_rank" />
+</menu>

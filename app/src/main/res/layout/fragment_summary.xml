@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/summary_menu_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".light_upclasses.FitnessActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/slice" />
+
+                <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Bold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="29dp"
+                    android:text="Routine Workout Summary"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Regular
+                    android:id="@+id/profilename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:text="Annual Savings of your Expense to"
+                    android:textColor="#d2d3d4"
+                    android:textSize="11.5dp" />
+
+                <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Regular
+                    android:id="@+id/mailid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="25dp"
+                    android:text="previous change"
+                    android:textColor="#d2d3d4"
+                    android:textSize="11.5dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="18dp">
+
+                    <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                        android:id="@+id/App"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="How would you rate our App?"
+                        android:textColor="#2f0305"
+                        android:textSize="14dp" />
+
+
+                    <com.jjoe64.graphview.GraphView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dip"
+                        android:id="@+id/graph"
+                        android:padding="2dp"
+                        app:seriesColor="@color/green"
+                        app:seriesTitle="Variations"
+                        android:title="Workout Depiction" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp"
+                    android:paddingTop="25dp">
+
+                    <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Bold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$1422.90"
+                        android:theme="@style/Rupees" />
+
+                    <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Saved on your Car Insurance Policy. Your Installment
+towards car policy is $1499"
+                        android:theme="@style/Paragraph" />
+
+                    <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingBottom="25dp"
+                        android:text="3 days ago"
+                        android:theme="@style/Sub_Text" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp"
+                    android:paddingTop="25dp">
+
+                    <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Bold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$1422.90"
+                        android:theme="@style/Rupees" />
+
+                    <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Saved on your Car Insurance Policy. Your Installment
+towards car policy is $1499"
+                        android:textColor="@color/paragraph"
+                        android:theme="@style/Paragraph" />
+
+                    <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:paddingBottom="25dp"
+                        android:gravity="right"
+                        android:text="1-Feb-2018"
+                        android:theme="@style/Sub_Text" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectangle3"
+                        android:orientation="vertical"
+                        android:paddingLeft="18dp"
+                        android:paddingRight="18dp"
+                        android:paddingTop="25dp">
+
+                        <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Bold
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="$1422.90"
+                            android:theme="@style/Rupees" />
+
+                        <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Paid to your friend for house hold sharing"
+                            android:theme="@style/Paragraph" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:orientation="horizontal">
+
+                            <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="App Name"
+                                android:textSize="11.5dp" />
+
+                            <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Bold
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" : Keyur Modi"
+                                android:textColor="#f2e495"
+                                android:textSize="11.5dp" />
+
+                        </LinearLayout>
+
+                        <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:gravity="right"
+                            android:layout_marginBottom="4dp"
+                            android:text="1-Feb-2018"
+                            android:theme="@style/Sub_Text" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#c8cbcc"
+                        android:paddingTop="2dp" />
+
+                    <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Bold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectangle2"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="18dp"
+                        android:paddingTop="10dp"
+                        android:text="View Full Detailed Card"
+                        android:textSize="11.5dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp"
+                    android:paddingTop="25dp">
+
+                    <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Bold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$1422.90"
+                        android:theme="@style/Rupees" />
+
+                    <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Saved on your Car Insurance Policy. Your Installment
+towards car policy is $1499"
+                        android:theme="@style/Paragraph" />
+
+                    <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="right"
+                        android:paddingBottom="25dp"
+                        android:text="3 days ago"
+                        android:theme="@style/Sub_Text" />
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rectangle3"
+                            android:orientation="vertical"
+                            android:paddingLeft="18dp"
+                            android:paddingTop="25dp">
+
+                            <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Bold
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="$1422.90"
+                                android:theme="@style/Rupees" />
+
+                            <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Download this app and get $500 Cash in
+your wallet."
+                                android:theme="@style/Paragraph" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:orientation="horizontal">
+
+                                <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="App Name:"
+                                    android:textColor="#000"
+                                    android:textSize="11.5dp" />
+
+                                <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Pointing score"
+                                    android:textColor="#1cb1ba"
+                                    android:textSize="11.5dp" />
+                            </LinearLayout>
+
+                            <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="4dp"
+                                android:layout_marginTop="4dp"
+                                android:gravity="right"
+                                android:paddingRight="20dp"
+                                android:text="SPONSORED"
+                                android:theme="@style/Sub_Text" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#c8cbcc"
+                            android:paddingTop="2dp" />
+
+                        <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Bold
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rectangle4"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="18dp"
+                            android:paddingTop="10dp"
+                            android:text="View Full Detailed Card"
+                            android:textColor="#fff"
+                            android:textSize="11.5dp" />
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+
+                        android:src="@drawable/tran" />
+
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Regular
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="No more cards"
+                        android:textColor="#838587"
+                        android:textSize="10.5dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#838587" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Medium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="Designed by WSDesign.in"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12.5dp" />
+
+                    <com.sdc.aisat.annajijo.lightup.customfonts.MyTextView_Roboto_Regular
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="18dp"
+                        android:gravity="center"
+                        android:text="Download XML Code"
+                        android:textColor="@color/textcolor"
+                        android:textSize="10.5dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
